@@ -1,0 +1,10 @@
+  .menu {
+    background-image: url('../assets//images/dash-nav-bg.jpg') !important;
+    /* opacity: 0.4; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #124630 !important;
+    width: 256px !important;
+  /* box-sizing: ; */
+  }
+  

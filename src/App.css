@@ -1,0 +1,105 @@
+
+body {
+  width: 100%;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #0F4C5C !important; 
+  font-weight: 500;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active:hover {
+  color: #0F4C5C !important; 
+  font-weight: 500;
+}
+
+.ant-tabs-ink-bar {
+  position: absolute;
+  background: #0F4C5C !important;
+  pointer-events: none;
+}
+
+
+
+/* StyledSlider = styled(Slider)` */
+  .ant-slider-track {
+    background: #0F4C5C !important;
+    height: 8px !important;
+  }
+  .ant-slider-rail {
+    background: #29292c;
+    height: 3px;
+  }
+  .ant-slider-handle {
+    /* background: #0F4C5C !important; */
+    accent-color: red !important;
+    width: 12px !important;
+    height: 12px !important;
+    border: none;
+  }
+  .ant-slider-handle-active {
+    /* background: #929293 !important; */
+    width: 12px;
+    height: 12px;
+    border: none;
+  }
+  .ant-slider-dot {
+    border: 20px solid #29292c !important;
+    border-radius: 1px;
+    background: #29292c;
+    width: 22px !important;
+    height: 22px !important;
+    padding: 400px !important;
+  }
+  .ant-slider-dot-active {
+    border: 1.5px solid #929293;
+    border-radius: 1px;
+    background: #929293;
+    width: 2px;
+    height: 10px;
+  }
+  .ant-slider-with-marks {
+      margin-bottom: 50px;
+  }
+/* @media print {
+  .py-1-half {
+      padding:10px 0px !important;
+      display: flex !important;
+      align-items: center !important;
+  }
+
+  .py-2 {
+    display: flex !important;
+      align-items: center !important;
+  }
+} */
